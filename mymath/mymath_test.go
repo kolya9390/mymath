@@ -9,7 +9,7 @@ func TestSqrt(t *testing.T) {
 	tests := []struct {
 		name string
 		args args
-		want int
+		want float64
 	}{
 		{
 			name: "Sqrt",
